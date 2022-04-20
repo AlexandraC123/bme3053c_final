@@ -1,4 +1,4 @@
-# bme3053c_final
+# bme3053c_final: MRI Brain Tumor Detection 
 
 ## background
 This project uses brain MRI data from a [Kaggle dataset](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection). The dataset contains 98 MRIs without brain tumors and 155 images with tumors. 
