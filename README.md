@@ -11,7 +11,7 @@ The code in this repository contains three methods used to for brain tumor detec
 *Team name: BME Enthusiasts*
 
 # Installation and Usage Instructions
-* for all methods: Download all files and ensure they are on the same MATLAB path.
+* for all methods: Download all files and ensure that all folders and subfolders are on the same MATLAB path.
 
 ### method 1: edge detection
 
