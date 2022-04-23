@@ -30,6 +30,9 @@ This folder contains three files: "image_classificaiton.mlx", "net.mat", and "sq
 * "squeeze_net_3.mlx" contains auto-generated code from MATLAB's deep network deisgner. This code was used to train "net.mat".
 * Open the file titled "image_classification.mlx".
     * change root to current path
-    * run the entire file to view predicted labels for 9 images from the test set and a confusion matrix of model accuracy
+    * the section beginning on line 1 loads the images into a datastore and splits into a training, validation, and testing set
+    * the section beginning on line 5 preprocesses images to fit the machine learning model
+    * run the section beginning on line 20 to view predicted labels for 9 images from the test set 
+    * run the section beginning on line 34 to view a confusion matrix of model accuracy
     * to view predicted label for a specific image, run section beginning at line 48 (ensuring that the folder containing the image is on the correct MATLAB path)
   
