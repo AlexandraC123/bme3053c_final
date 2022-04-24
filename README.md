@@ -20,7 +20,9 @@ The code in this repository contains three methods used to for brain tumor detec
 * To finish the process, the user has to apply masking to the image to define the region of interest. To do this, the user will have to click 8 points around the desired area (encapsulating the tumor) inside of the brain. Masking eliminates the boundary of the brain so that it is no longer considered for the rest of the edge detection and so that the only portion considered is the regon of interest. Lastly, the closed region detected is filled in to clearly distinguish the tumor in the MRI. 
 
 ### method 2: image thresholding
-* The second method of trial for the project is image thresholding. This code used the area of a tumor to determine the total number of tumors present in the brain based on user’s input of MRI scan. The functions imread and size were used to read and store the image size in their respective variables. The area was calculated by using the function imshow and data tips from the figure options; the radius was found from the X and Y coordinates and plugged into the equation area of tumor equals pi times radius squared. The data tips option gave the RGB values of any pixel on the image so the range for all of the color matrices for the brain tumor was declared as RGB>=164 and RGB<=246. Then each pixel was that fell in that range was counted and finally the total number of pixels was divided by the area to print the total number of tumors present in the MRI scan.  
+* The second method of trial for the project is image thresholding. The goal of image thresholding is to determine the number of tumors present in the brain from the MRI scan.
+* The user should click the run option and then begin by entering the name of the image file (MRI scan). Then the user will press the enter key for the code to run. 
+* The program will predict the total number of tumors based on the total number of pixels that fall in the RGB color matrix range for the tumor (divided by the area following the for loop). 
 
 ### method 3: machine learning
 
