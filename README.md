@@ -21,7 +21,7 @@ The code in this repository contains three methods used to for brain tumor detec
 
 ### method 2: image thresholding
 * The second method of trial for the project is image thresholding. The goal of image thresholding is to determine the number of tumors present in the brain from the MRI scan.
-* The user should click the run option and then begin by entering the name of the image file (MRI scan). Then the user will press the enter key for the code to run. 
+* The user should click the run option and then begin by entering the name of the image file (MRI scan). Then the user should press the enter key for the code to run. 
 * The program will predict the total number of tumors based on the total number of pixels that fall in the RGB color matrix range for the tumor (divided by the area following the for loop). 
 
 ### method 3: machine learning
